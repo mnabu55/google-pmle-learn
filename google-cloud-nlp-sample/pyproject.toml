@@ -1,0 +1,9 @@
+[project]
+name = "google-cloud-nlp-sample"
+version = "0.1.0"
+description = "Google Cloud Natural Language API を用いた日本語テキストの感情・エンティティ分析サンプル"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-cloud-language>=2.20.0",
+]
