@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Credentials and sensitive configurations (Do not upload to Git)
+*.json
+.env
+.env.*
+
